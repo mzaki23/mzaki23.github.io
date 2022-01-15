@@ -1,6 +1,44 @@
-.jumbotron {
-    padding: 2rem 1rem;
-    background-color: rgb(231, 231, 231);
-    height: 100vh;
-    
+ssbody{
+    background-color: rgb(22,231,221);
+    background-color: linear-gradient(270deg,rgba(22,231,221) 0%,
+    rgba(33,181,237,1)35%,rgba(0,255,239,1)100%);
+}
+
+.timeline{
+    border-left: 1px dashed hsl(193deg,84%,52%);
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.timeline .timeline-box{
+    padding-left: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.timeline-icon{
+    left: -18px;
+    top: 0;
+    background-color: #beb915;
+    position:absolute;
+    width: 35px;
+    z-index: 1;
+    text-align: center;
+    line-height: 35px;
+}
+
+.timeline-icon i {
+    color: white;
+}
+
+.timeline .timeline-icon:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #E5DD17;
+    opacity: 0.5;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    margin: -4px;
 }
